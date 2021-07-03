@@ -17,14 +17,14 @@ This repository contains one of many possible solution for [Bin2Dec](https://git
 
 ### How to use
 
-Clone repository backend-nlw
+Clone repository bin2dec
 ```
-git clone https://github.com/victor4pinheiro/backend-nlw
+git clone https://github.com/victor4pinheiro/bin2dec-python
 ```
 
 Go into the repository
 ```
-cd backend-nlw
+cd bin2dec-python
 ```
 
 Execute the file
