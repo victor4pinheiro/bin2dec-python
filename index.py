@@ -53,9 +53,9 @@ def check_length(value: str) -> bool:
     return status_check_integer
 
 print('Hello. To convert a binary number, please enter a valid value:')
-input_user = input()
+INPUT_USER = input()
 
-STATUS_VALIDATE = check_length(input_user)
+STATUS_VALIDATE = check_length(INPUT_USER)
 
 if STATUS_VALIDATE is True:
-    convert_binary_to_decimal(input_user)
+    convert_binary_to_decimal(INPUT_USER)
