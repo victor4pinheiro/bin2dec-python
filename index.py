@@ -1,6 +1,8 @@
 """
 Convert binary to decimal number
 """
+
+
 def convert_binary_to_decimal(binary_number: str):
     """Convert the already authenticated binary number to decimal number"""
     count = len(binary_number)
@@ -11,9 +13,11 @@ def convert_binary_to_decimal(binary_number: str):
         count -= 1
     print(result)
 
+
 def handle_error(message: str):
     """Print error on screen"""
     print(message)
+
 
 def check_binary(value: str) -> bool:
     """Check if value is a binary number"""
@@ -32,6 +36,7 @@ def check_binary(value: str) -> bool:
 
     return status
 
+
 def check_integer(value: str) -> bool:
     """Check if value is only number"""
     if value.isdecimal():
@@ -42,6 +47,7 @@ def check_integer(value: str) -> bool:
 
     return status_check_binary
 
+
 def check_length(value: str) -> bool:
     """Check if value is a byte"""
     if len(value) <= 8:
@@ -51,6 +57,7 @@ def check_length(value: str) -> bool:
         handle_error("Error! It is not a byte")
 
     return status_check_integer
+
 
 print('Hello. To convert a binary number, please enter a valid value:')
 INPUT_USER = input()
